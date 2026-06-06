@@ -1,0 +1,13 @@
+# Treat all binary assets as binary so no platform (incl. the Linux build host)
+# ever applies line-ending / text normalization to them on checkout. Image
+# corruption from text-conversion shows up as "broken" slots on the deploy.
+*.webp binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.ico  binary
+*.avif binary
+*.mp4  binary
+*.woff  binary
+*.woff2 binary
