@@ -162,7 +162,7 @@ export const campingnord: CampsiteConfig = {
   },
 
   kontakt: {
-    coords: { lat: 46.60767, lng: 14.576436 },
+    coords: { lat: 46.608601, lng: 14.585973 },
     tel: "+43 4239 400 55",
     telHref: "tel:+43423940055",
     mail: "",
